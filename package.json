@@ -1,0 +1,19 @@
+{
+  "name": "my-own-angularjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^18.1.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
