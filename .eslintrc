@@ -3,12 +3,24 @@
         "node": true,
         "browser": true,
         "es6": true,
-        "mocha": true,
         "amd": true,
+        "jasmine": true,
+        "phantomjs": true,
         "jquery": true
     },
-
+    "plugins": [
+        "jasmine"
+    ],
     "globals": {
+        "jasmine": false,
+        "describe": false,
+        "it": false,
+        "expect": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "sinon": false,
+        "_": false,
+        "$": false
     },
 
     "ecmaFeatures": {
@@ -210,5 +222,7 @@
         "arrow-spacing": [1, {before: true, after: true}],
         "no-const-assign": 2,
         "no-this-before-super": 2
+
+
     }
 }
