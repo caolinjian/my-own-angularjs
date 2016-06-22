@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
     grunt.initConfig({
         eslint: {
-            all: ['src/**/*.js']
+            all: ['src/**/*.js', 'test/**/*.js']
         },
         testem: {
             unit: {
